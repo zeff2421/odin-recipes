@@ -2,13 +2,23 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.heading {
+h1,
+h2 {
     font-weight: bold;
     text-align: center;
     font-size: 50px;
 }
 
-.list {
+ul {
     text-align: center;
     width: auto;
+}
+
+div {
+    text-align: center;
+}
+
+div #description {
+    font-size: 13px;
+    font-weight: bold;
 }
