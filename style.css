@@ -1,0 +1,14 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.list {
+    text-align: center;
+    width: auto;
+}
