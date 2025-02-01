@@ -1,24 +1,47 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    background-color: #7e7d7b;
 }
 
-h1,
-h2 {
+h1 {
     font-weight: bold;
     text-align: center;
     font-size: 50px;
+    color: #d2d1cd;
 }
 
-ul {
+.recipes ul {
     text-align: center;
     width: auto;
 }
 
-div {
-    text-align: center;
+.recipe li {
+    list-style: none;
+    margin-top: 15px;;
 }
 
 div #description {
     font-size: 13px;
     font-weight: bold;
+}
+
+.recipe img {
+    width: auto;
+    height: 150px;
+}
+
+.recipe {
+    display: inline-block;
+}
+
+.recipe a {
+    text-decoration: none;
+    background-color: #d2d1cd;
+    color: #7e7d7b;
+    padding: 8px 16px;
+}
+
+.recipe a:hover {
+    background-color: #2a2a29;
+    color: #d2d1cd;
 }
